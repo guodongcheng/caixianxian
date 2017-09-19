@@ -1,0 +1,25 @@
+获取图形的验证码的地址:
+http://m.loho88.com/code/mobile/getCaptchaCode?0.018003946968748075
+
+"get方式"
+
+
+发送短信验证码的地址:
+http://m.loho88.com/uc/mobile/register/code?captcha=8660&mobile=18845246549
+Request Method:POST
+
+
+
+注册:
+Request URL:http://m.loho88.com/uc/mobile/register
+Request Method:POST
+
+参数格式:formData
+agreement:true //是否同意用户协议
+captcha:1232  //短信验证码
+inputCaptcha:3569 //图片验证码
+password:  //密码
+repassword:  //再次输入密码
+username:  //账号/手机号
+
+

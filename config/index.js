@@ -34,6 +34,13 @@ module.exports = {
         "pathRewrite": {
             "^/cxx66": ""
         }
+      },
+      "/m": {
+        "target": "http://m.loho88.com",
+        "changeOrigin": true,
+        "pathRewrite": {
+            "^/m": ""
+        }
       }
     },
     // CSS Sourcemaps off by default because relative paths are "buggy"
